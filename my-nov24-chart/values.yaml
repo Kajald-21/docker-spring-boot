@@ -2,10 +2,10 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 4
+replicaCount: 1
 
 image:
-  repository: 904233097470.dkr.ecr.ap-northeast-1.amazonaws.com/my_docker_repo
+  repository: 880039516653.dkr.ecr.ap-south-1.amazonaws.com/docker/repo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
